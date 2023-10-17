@@ -25,7 +25,7 @@ box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.06), 0px 1px 3px 0px rgba(16, 24,
     margin-right: 2rem;
 }
 .fName{
-    color: var(--Black, #242A31);
+    color: var(--Black, #fff);
     font-size: 14.329px;
     font-style: normal;
     font-weight: 400;
@@ -33,7 +33,7 @@ box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.06), 0px 1px 3px 0px rgba(16, 24,
 }
 
 .sName{
-    color: var(--7-e-7373, #7E7373);
+    color: var(--7-e-7373, #f6f6f6);
     font-size: 9.664px;
     font-style: normal;
     font-weight: 700;
