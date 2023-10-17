@@ -1,7 +1,7 @@
 // import './page.css'
 
 
-import Hero from "./components/organisms/Hero/Hero";
+import Hero from "./Hero";
 
 const Home = () => {
   return (
