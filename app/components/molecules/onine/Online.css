@@ -1,0 +1,48 @@
+.card{
+position: absolute;
+z-index: 3;
+margin-top: -18rem;
+margin-left: 60rem;
+
+display: inline-flex;
+width: 15rem;
+height: 65.726px;
+padding: 6.997px 9.329px;
+align-items: center;
+gap: 9.329px;
+padding: 10px;
+flex-shrink: 0;
+border-radius: 4.664px;
+background: #121212;
+box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.06), 0px 1px 3px 0px rgba(16, 24, 40, 0.10);
+}
+
+.dp{
+    object-fit: cover;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    margin-right: 2rem;
+}
+.fName{
+    color: var(--Black, #242A31);
+    font-size: 14.329px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 13.993px */
+}
+
+.sName{
+    color: var(--7-e-7373, #7E7373);
+    font-size: 9.664px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.follow-btn{
+    background-color: #F7D046;
+    border-radius: 12px;
+    font-size: 12px;
+    padding: 2px 12px;
+
+}

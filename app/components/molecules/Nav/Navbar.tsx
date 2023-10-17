@@ -18,7 +18,7 @@ const Navbar = () =>{
         <Logo/>
      <nav >
       <Link className="li" href="/">Home</Link>
-      <Link className="li"  href="/about">About Us</Link>
+      <Link className="li"  href="/about">About Me</Link>
       <Link className="li" href="/services">Services</Link>
       <Link  className="li" href="/blog">Blog</Link>
       </nav>

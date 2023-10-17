@@ -1,6 +1,7 @@
 import Round from "../../Atom/Radial/Round";
 import HeroLeft from "../../molecules/HeroLeft/Hero-Left";
 import HeroRight from "../../molecules/Heroright/Hero-Right";
+import Online from "../../molecules/onine/Online";
 
 const Hero  = () => {
   const stylesMain ={
@@ -25,6 +26,7 @@ const Hero  = () => {
         
 
     </main>
+    <Online/>
   </>
   );
 };
