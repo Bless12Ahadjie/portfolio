@@ -1,0 +1,40 @@
+.first-txt{
+    color: #3E434A;
+    font-size: 22px;
+
+}
+.first-txt span{
+    color: #2C0C59;
+    font-size: 30px;
+}
+.second-txt{
+    color: var(--Black, #242A31);
+    font-size: 56px;
+    width: 36rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; 
+}
+.stack{
+    color: #2C0C59;
+
+}
+
+.last-txt{
+    color: #3E434A;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    width: 50px;
+    height: 10rem;
+    line-height: 4rem;
+
+}
+.name-span{
+    font-size: 36px;
+    font-weight: 400;
+    color: #2C0C59;
+}
+.LeftCointainer{
+    margin-top: 4rem;
+}

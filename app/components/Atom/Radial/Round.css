@@ -1,0 +1,8 @@
+.round{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    border-radius: 316px;
+    background: #05FFAB;
+    filter: blur(335.3773498535156px);
+}
