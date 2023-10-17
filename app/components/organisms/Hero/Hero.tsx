@@ -19,7 +19,7 @@ const Hero  = () => {
   return (
   <>
     <Round/>
-    <main style={stylesMain} className="HeroContainer">
+    <main style={stylesMain} className="Hero-wrapper">
         <HeroLeft/>
         <HeroRight/>
         
