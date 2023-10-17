@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
     border-radius: 8px;
-    background: #6200EE;
+    background: #FABD03;
     color: #fff;
     font-size: 16px;
 }
@@ -14,4 +14,8 @@
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
+}
+.li:hover{
+    color: #FABD03;
+    border-bottom: 2px solid #FABD03;
 }

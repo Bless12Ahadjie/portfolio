@@ -8,6 +8,8 @@
     font-size: 30px;
 }
 .second-txt{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     color: var(--Black, #242A31);
     font-size: 56px;
     width: 36rem;
@@ -16,7 +18,7 @@
     line-height: 120%; 
 }
 .stack{
-    color: #2C0C59;
+    color: #FABD03;
 
 }
 
@@ -33,8 +35,10 @@
 .name-span{
     font-size: 36px;
     font-weight: 400;
-    color: #2C0C59;
+    color: #FABD03;
 }
 .LeftCointainer{
-    margin-top: 4rem;
+    margin-top: 3rem;
+    margin-right: 5rem;
+    width: 32rem;
 }
