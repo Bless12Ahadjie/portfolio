@@ -14,7 +14,6 @@ const Hero  = () => {
     justifyContent:"center",
     aligntems: "center",
     alignSelf: "stretch"
-    
 
   }
   return (
@@ -23,8 +22,6 @@ const Hero  = () => {
     <main style={stylesMain} className="Hero-wrapper">
         <HeroLeft/>
         <HeroRight/>
-        
-
     </main>
     <Online/>
   </>

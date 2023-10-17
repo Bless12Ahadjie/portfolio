@@ -1,3 +1,12 @@
 .profile{
     border-radius: 50%;
 }
+
+/* @media screen and (max-width:840px){
+    .Hero-wrapper{
+        flex-direction: column-reverse;
+    }
+    .card{
+        margin: 0;
+    }
+} */

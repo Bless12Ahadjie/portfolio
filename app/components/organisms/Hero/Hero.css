@@ -1,3 +1,7 @@
-@media screen a {
-    
+@media screen and (max-width:840px){
+    .Hero-wrapper{
+        flex-direction: column;
+        width: 40px;
+
+    }
 }
