@@ -2,11 +2,13 @@
 
 
 import Hero from "./Hero";
+import ServiceSection from "./components/organisms/Services-section/Sevice-Section";
 
 const Home = () => {
   return (
    <main className="bodyMain">
     <Hero/>
+    <ServiceSection />
 
      
    </main>

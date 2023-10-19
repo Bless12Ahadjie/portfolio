@@ -3,6 +3,9 @@ import { Inter } from 'next/font/google'
 import './globals.css'
 import Link from 'next/link'
 import Navbar from './components/molecules/Nav/Navbar'
+import '@mantine/core/styles.css';
+import { MantineProvider, ColorSchemeScript } from '@mantine/core';
+
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -18,11 +21,17 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+       <ColorSchemeScript />
      
       <body className={inter.className}>
-        <Navbar/>
+       {/* const theme = useMantineTheme(); */}
 
-        {children}
+        <MantineProvider >
+        <Navbar/>
+          {children}
+         
+        
+        </MantineProvider>
         
         </body>
 
