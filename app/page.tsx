@@ -1,7 +1,7 @@
 // import './page.css'
 
 
-import Hero from "./Hero";
+import Hero from "./components/organisms/Hero/Hero";
 import ServiceSection from "./components/organisms/Services-section/Sevice-Section";
 
 const Home = () => {

@@ -4,7 +4,6 @@
     position: absolute;
     border-radius: 316px;
     background: linear-gradient(53deg, #FABD03 15.45%, #05FFAB 91.84%);
-
-
+    z-index: 0;
     filter: blur(180.3773498535156px);
 }

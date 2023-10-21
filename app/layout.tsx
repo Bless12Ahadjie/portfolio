@@ -1,7 +1,6 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
-import Link from 'next/link'
 import Navbar from './components/molecules/Nav/Navbar'
 import '@mantine/core/styles.css';
 import { MantineProvider, ColorSchemeScript } from '@mantine/core';
@@ -21,16 +20,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-       <ColorSchemeScript />
+       {/* <ColorSchemeScript /> */}
      
       <body className={inter.className}>
-       {/* const theme = useMantineTheme(); */}
 
         <MantineProvider >
-        <Navbar/>
+          <Navbar/>
           {children}
-         
-        
         </MantineProvider>
         
         </body>
